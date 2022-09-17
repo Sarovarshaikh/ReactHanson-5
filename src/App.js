@@ -1,13 +1,15 @@
 import React, { Component } from 'react'
-
+import ProductContainer from './Components/ProductContainer';
+import PureComponent from './Components/PureComponent';
 import './App.css'
-import Products from './Compnents/Products';
 
 class App extends Component {
  render(){
   return (
     <div className='App'>
-      <Products/>
+      <ProductContainer/>
+      <PureComponent />
+
     </div>
   )
  }

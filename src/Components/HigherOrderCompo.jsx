@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Component.css'
 
 
 const productsItems = [
@@ -31,7 +31,7 @@ const HOC = (WrappedCompo) => {
     
     return (
       <div>
-      
+        <h1>Higher Order Component</h1>
         <label>Search</label>  
         <input type="text" onChange={this.updateSearch}/>
         
